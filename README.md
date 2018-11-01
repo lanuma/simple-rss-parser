@@ -15,7 +15,7 @@ $rss = $this->rss_parser->parse();
 ```
 and you also can set url and set limit after load library
 ```php
-$this->load->library('rss_parser', $config);
+$this->load->library('rss_parser');
 $this->rss_parser->setUrl('RSS FEED URL');
 $this->rss_parser->setLimit(20);
 $rss = $this->rss_parser->parse();
@@ -23,4 +23,4 @@ $rss = $this->rss_parser->parse();
 $rss variable will return rss element as array
 
 ## Contributing
-Pull request welcome if you have idea or make this library more effective.
+Pull request welcome if you have to make this library more effective.
